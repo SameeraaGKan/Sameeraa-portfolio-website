@@ -176,6 +176,8 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
+    box-shadow: 0 0 98px 6px rgba(86, 189, 215, 0.899); 
+    border-radius: 50%; 
   }
   
   .section__text {
@@ -188,7 +190,7 @@ section {
   }
   
   .section__text__p1 {
-    text-align: center;
+    font-size: 1.70rem;
   }
   
   .section__text__p2 {
@@ -204,9 +206,9 @@ section {
   #socials-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 1rem;
-    gap: 1rem;
-    flex-direction: row;
+    gap: 0.5rem;
   }
   
   /* ICONS */
@@ -214,6 +216,7 @@ section {
   .icon {
     cursor: pointer;
     height: 2rem;
+    margin: 0 10px;
   }
 
   /* BUTTONS */
