@@ -279,13 +279,14 @@ section {
     height: 400px;
     width: 300px;
     margin: auto 0;
-    box-shadow: 0 0 98px 6px rgba(215, 86, 200, 0.899);  
+    box-shadow: 0 0 90px 6px rgba(91, 215, 137, 0.899);  
     border-radius: 2rem;
   }
 
   .sections-container {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 
   }
 
@@ -318,5 +319,36 @@ section {
     bottom: 2.5rem;
   }
 
+  .details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    margin-left: 4rem;
+  }
+
+  .section-container {
+    gap: 4rem;
+    height: 80%;
+  }
+
+  .section__pic-container1 {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+  }
+
+  .text-container {
+    margin-left:4rem;
+  }
+
+  /* Eperience Section */
+
+  #experience {
+    position: relative;
+  }
   
  
