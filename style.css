@@ -350,5 +350,12 @@ section {
   #experience {
     position: relative;
   }
+
+  .arrow1 {
+    position: absolute;
+    right: -5rem;
+    bottom: 0.5rem;
+  }
+
   
  
