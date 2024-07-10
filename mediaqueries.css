@@ -1,3 +1,4 @@
+/* This is when the size of the screen is less than 1400 px */
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
@@ -11,6 +12,8 @@
     height: fit-content;
   }
 }
+
+/* This is for when the size of the screen is less than 1200px */
 
 @media screen and (max-width: 1200px) {
   #desktop-nav {
@@ -46,6 +49,8 @@
     margin-top: 0;
   }
 }
+
+/* this is when the website is opened on a phone */
 
 @media screen and (max-width: 600px) {
   #contact,
