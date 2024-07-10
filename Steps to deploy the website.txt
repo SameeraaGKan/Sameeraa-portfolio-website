@@ -1,0 +1,10 @@
+Okay I haven't deployed my website, but here are the steps to do so 
+1. Go to www.netlify.com, sign up with github
+2. authorize with github 
+3. Click on 'Add new site'
+4. Then click on 'Import existing project'
+5. Click on GitHub, find your repository (make sure its public)
+6. don's change any build settings
+7. Click on 'Deploy site'
+8. Then click on the link AND......
+9. YOUR WEBSITE IS READY TO CONQUER THE WORLD!!!!!
