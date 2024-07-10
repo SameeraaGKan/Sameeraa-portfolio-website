@@ -7,7 +7,9 @@
     }
 
     .sections-container {
+        display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 
     .about-pic {
@@ -17,11 +19,20 @@
 
     .section__pic-container1 {
         display: flex;
+        justify-content: center;
         height: 400px;
         width: 300px;
-        margin-left: 550px;
-        margin: auto 0;
         box-shadow: 0 0 90px 6px rgba(91, 215, 137, 0.899);  
         border-radius: 2rem;
+        margin-bottom: 20px;   
+      } 
+
+      #experience {
+        padding-top: 20rem;
       }
-}
+
+      .about-details-container {
+        margin-top: 20px;
+        margin-left: -90px;
+      }
+} 
