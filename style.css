@@ -424,6 +424,7 @@ section {
     justify-content: center;
     flex-direction: column;
     height: 70vh;
+    position: relative;
   }
 
   .contact-info-upper-container {
@@ -453,6 +454,23 @@ section {
     cursor: default;
   }
 
+  .contact-arrow {
+    position: absolute;
+    height: 2rem;
+    right: -5rem;
+    bottom: -7.5rem;
+  }
+
   .email-icon {
     height: 2.5rem;
+  }
+
+  footer {
+    height: 26vh;
+    margin: 0 1 rem;
+  }
+
+  footer p{
+    text-align: center;
+    font-weight: 300;
   }
