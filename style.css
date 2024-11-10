@@ -486,3 +486,34 @@ section {
     text-align: center;
     font-weight: 300;
   }
+
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+}
+  .cloud {
+      position: absolute;
+      width: 200px; /* Increased size */
+      opacity: 0.8;
+      pointer-events: none;
+  }
+
+  .cloud-left {
+      left: -200px;
+      animation: floatLeft 15s infinite linear;
+  }
+
+  .cloud-right {
+      right: -200px;
+      animation: floatRight 15s infinite linear;
+  }
+
+  @keyframes floatLeft {
+      from { transform: translateX(0); }
+      to { transform: translateX(calc(100vw + 200px)); }
+  }
+
+  @keyframes floatRight {
+      from { transform: translateX(0); }
+      to { transform: translateX(calc(-100vw - 200px)); }
+  }
