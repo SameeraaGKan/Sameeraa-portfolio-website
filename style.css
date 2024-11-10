@@ -48,9 +48,10 @@ nav {
 }
  
 .nav-links {
-    gap: 2rem;
+    gap: 5rem;
     list-style: none;
     font-size: 1.5rem;
+    align-items: center;
 }
 
 a {
@@ -197,16 +198,16 @@ section {
   }
   
   .section__text__p1 {
-    font-size: 1.70rem;
+    font-size: 3rem;
   }
   
   .section__text__p2 {
-    font-size: 1.75rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
   }
   
   .title {
-    font-size: 3rem;
+    font-size: 5rem;
     text-align: center;
   }
   
@@ -350,6 +351,17 @@ section {
     width: 400px;
     margin: auto 0;
   }
+
+  .sections__text__p4 {
+    margin-bottom: 0.2rem;
+    font-size: 10rem;
+    color: #555; 
+}
+
+.title1 {
+  font-size: 5rem;
+  text-align: center;
+}
   
   /* EXPERIENCE SECTION */
   
